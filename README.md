@@ -9,4 +9,4 @@
 
 -Our program defines five primitive recursive functions using the data type Nat and the recursos recNat. It also tests the implementation of these functions using the QuickCheck library
 
--QuickCheck instanes used: Arbitrary, arbitrarySizedNatural, shrinkIntegral, quickcheck
+-QuickCheck instances used: Arbitrary, arbitrarySizedNatural, shrinkIntegral, quickcheck
