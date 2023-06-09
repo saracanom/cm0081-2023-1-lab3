@@ -50,7 +50,7 @@ predR n= recNat Zero (\x _ -> x) n
 -- those two numbers. In order to accomplish multiplication, we take 0 as the
 -- f(0), the addition function between f(0) and n as the h function, and m as
 -- the recursion element. This will add un m times n to 0, finally returning
--- the product of those two numbers. 
+-- the product of those two numbers.
 multiplyR:: Nat -> Nat -> Nat
 multiplyR n m = recNat Zero (\_ y -> addR n y) m
 
